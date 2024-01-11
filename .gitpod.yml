@@ -12,4 +12,4 @@ tasks:
       npx cypress install
   - name: run cypress tests
     command: |
-      npx cypress run
+      npx cypress run --browser chrome
