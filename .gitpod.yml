@@ -13,3 +13,4 @@ tasks:
   - name: run cypress tests
     command: |
       npx cypress run --browser chrome
+      npx cypress open
