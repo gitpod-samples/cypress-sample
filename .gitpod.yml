@@ -5,3 +5,10 @@ ports:
     onOpen: ignore
   - port: 6080
     onOpen: open-browser
+tasks:
+  - name: install cypress to workspace
+    init: |
+      npm install && npx cypress install
+  - name: run cypress tests
+    command: |
+      npm cypress run
