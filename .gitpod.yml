@@ -11,4 +11,4 @@ tasks:
       npm install && npx cypress install
   - name: run cypress tests
     command: |
-      npm cypress run
+      npx cypress run
