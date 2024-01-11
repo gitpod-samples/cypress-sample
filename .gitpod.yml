@@ -8,7 +8,6 @@ ports:
 tasks:
   - name: install cypress to workspace
     init: |
-      npm install cypress --save-dev
       npm install
       npx cypress install
   - name: run cypress tests
