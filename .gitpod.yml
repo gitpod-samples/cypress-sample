@@ -10,7 +10,9 @@ tasks:
     init: |
       npm install
       npx cypress install
-  - name: run cypress tests
+  - name: run chrome tests
     command: |
       gp sync-done first-run && yes | npx cypress run --browser chrome
-      gp sync-await first-run && npx cypress open
+  - name: open cypress application
+    command: |
+      gp sync-await first-run && gp await-port 6080 && npx cypress open
