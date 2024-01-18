@@ -10,7 +10,9 @@ tasks:
     init: |
       npm install
       npx cypress install
-  - name: run cypress tests
+  - name: run chrome tests
     command: |
       yes | npx cypress run --browser chrome
-      npx cypress open
+  - name: open cypress application
+    command: |
+      yes | npx cypress open
