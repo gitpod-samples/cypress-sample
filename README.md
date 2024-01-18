@@ -1,6 +1,6 @@
 # gitpod-cypress
 
-This is an unofficial repo demonstrating how to use Cypress with Gitpod.
+This is an repo demonstrates how to use Cypress with Gitpod.
 
 ## Setup
 
