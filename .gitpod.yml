@@ -12,5 +12,5 @@ tasks:
       npx cypress install
   - name: run cypress tests
     command: |
-      yes | npx cypress run --browser chrome
-      npx cypress open
+      gp sync-done first-run && yes | npx cypress run --browser chrome
+      gp sync-await first-run && npx cypress open
