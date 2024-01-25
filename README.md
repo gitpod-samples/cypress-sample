@@ -1,6 +1,6 @@
 # gitpod-cypress
 
-This is repo demonstrates how to use Cypress with Gitpod.
+This repo demonstrates how to use Cypress with Gitpod.
 
 ## Setup
 
@@ -11,4 +11,4 @@ This is repo demonstrates how to use Cypress with Gitpod.
 
 ## Tips
 
-On workspace start, a new tab will be opened for the VNC web viewer. If you don't see it, you may need to allow/trust the host running Gitpod.
+On workspace start, a preview will be opened in the IDE for the VNC web viewer.
